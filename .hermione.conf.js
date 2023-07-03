@@ -11,6 +11,7 @@ module.exports = {
       desiredCapabilities: {
         browserName: "chrome",
       },
+    
     },
   },
   plugins: {

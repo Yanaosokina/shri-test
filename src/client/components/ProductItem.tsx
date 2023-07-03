@@ -13,6 +13,8 @@ export interface ProductItemProps {
 }
 
 export const ProductItem: React.FC<ProductItemProps> = ({ product }) => {
+
+    
     return (
         <div data-testid={product.id} className={bem(null, ['card', 'w-100', 'mb-4'])}>
             <Image className="card-img-top" />
